@@ -184,9 +184,6 @@
 			},
 			"sourceIndexes" : 
 			[
-				56,
-				57,
-				58,
 				59,
 				60,
 				61,
@@ -204,7 +201,12 @@
 				73,
 				74,
 				75,
-				76
+				76,
+				77,
+				78,
+				79,
+				80,
+				81
 			]
 		},
 		{
@@ -299,7 +301,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				77
+				82
 			]
 		}
 	],
@@ -414,7 +416,10 @@
 				51,
 				52,
 				53,
-				54
+				54,
+				55,
+				56,
+				57
 			]
 		},
 		{
@@ -423,18 +428,15 @@
 			[
 				3,
 				25,
-				55,
-				77,
-				78
+				58,
+				82,
+				83
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				56,
-				57,
-				58,
 				59,
 				60,
 				61,
@@ -452,7 +454,12 @@
 				73,
 				74,
 				75,
-				76
+				76,
+				77,
+				78,
+				79,
+				80,
+				81
 			]
 		}
 	],
@@ -685,6 +692,16 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
 			"path" : "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_bus.h",
 			"sourceGroupIndex" : 0
 		},
@@ -726,6 +743,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_system.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_ll_usart.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -826,6 +848,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c",
 			"sourceGroupIndex" : 2
 		},
 		{
